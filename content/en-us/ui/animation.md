@@ -541,7 +541,7 @@ The "typewriter" effect is ideal for `Class.TextLabel|TextLabels` that tell a st
 
    function AnimateUI.typeWrite(guiObject, text, delayBetweenChars)
    	guiObject.Visible = true
-   	guiObject.AutoLocalize = false
+   	guiObject.AutoLocalize = false -- if this disabled the above function doesnt make sense
    	local displayText = text
 
    	-- Translate text if possible
